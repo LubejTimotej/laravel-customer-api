@@ -13,7 +13,7 @@ The customer data structure consists of an: <br />
 
 ## API:
 In order to make request, you need to prefix all calls with `api`.
-Example for retrieving customer data: `localhost:8000/api/api/1`
+Example for retrieving customer data for API1: `localhost:8000/api/api1/1`
 
 **API1:**
 - **GET:** `/api1/{id}` - Retrieve customer data by `id`.
