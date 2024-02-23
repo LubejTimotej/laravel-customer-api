@@ -1,5 +1,5 @@
 ## Description:
-This project focuses on creating a straightforward customer data distrubution system with simulated REST API's. The primary objective is to develop a RESTful service that enables the sharing of customer information across three API's by supporting basic operations such as retrieval, insertion, deletion and updating of data.
+This project is a straightforward customer data distrubution system with simulated REST API's. It uses a RESTful service that enables the sharing of customer information across three API's by supporting basic operations such as retrieval, insertion, deletion and updating of data.
 
 ## Customer Data Structure:
 The customer data structure consists of an: <br /> 
