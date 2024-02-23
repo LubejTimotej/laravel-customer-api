@@ -1,7 +1,7 @@
-## Description
+## Description:
 This project focuses on creating a straightforward customer data distrubution system with simulated REST API's. The primary objective is to develop a RESTful service that enables the sharing of customer information across three API's by supporting basic operations such as retrieval, insertion, deletion and updating of data.
 
-## Customer Data Structure
+## Customer Data Structure:
 The customer data structure consists of an: <br /> 
     - id <br />
     - name <br />
@@ -12,6 +12,9 @@ The customer data structure consists of an: <br />
     - phone number <br />
 
 ## API:
+In order to make request, you need to prefix all calls with `api`.
+Example for retrieving customer data: `localhost:8000/api/api/1`
+
 **API1:**
 - **GET:** `/api1/{id}` - Retrieve customer data by `id`.
 - **INSERT:** `/api1` - Insert new customer data (`name and last name`, `address`, `postal code`, `tax number`).
@@ -38,6 +41,6 @@ The customer data structure consists of an: <br />
 3. Error Handling: The controllers incorporate robust error handling mechanisms, providing meaningful responses in case of record not found or internal server errors. Detailed error logs are generated for debugging purposes.
 
 4. Database Interaction: The controllers interact with the database using Laravel's Eloquent ORM, ensuring secure and efficient data retrieval, insertion, updating, and deletion.
-
+   
 ## Conclusion: 
 This project aims to create a simple customer data distribution system with simulated REST APIs. Your contributions, feedback, and suggestions are highly appreciated.
