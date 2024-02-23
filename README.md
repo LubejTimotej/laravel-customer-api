@@ -3,13 +3,13 @@ This project focuses on creating a straightforward customer data distrubution sy
 
 ## Customer Data Structure
 The customer data structure consists of an:
-    - id
-    - name
-    - last name
-    - postal code
-    - address
-    - tax number
-    - phone number
+    - id <br />
+    - name <br />
+    - last name <br />
+    - postal code <br /> 
+    - address <br /> 
+    - tax number <br />
+    - phone number <br />
 
 ## API:
 **API1:**
