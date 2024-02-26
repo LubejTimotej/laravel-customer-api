@@ -38,9 +38,9 @@ Example for retrieving customer data for API1: `localhost:8000/api/api1/1`
 
 2. **Simulated REST APIs:** `APIs (API1, API2, API3)` are simulated through corresponding controllers, each designed to handle specific operations.
 
-3. **Error Handling:** The controllers incorporate robust error handling mechanisms, providing meaningful responses in case of record not found or internal server errors. Detailed error logs are generated for debugging purposes.
+3. **Error Handling:** The controllers incorporate error handling mechanisms, providing meaningful responses in case of record not found or internal server errors. Detailed error logs are generated for debugging purposes.
 
 4. **Database Interaction:** The controllers interact with the database using Laravel's Eloquent ORM, ensuring secure and efficient data retrieval, insertion, updating, and deletion.
    
 ## Conclusion: 
-This project aims to create a simple customer data distribution system with simulated REST APIs. Your contributions, feedback, and suggestions are highly appreciated.
+This project aims to create a simple customer data distribution system with simulated REST APIs. Contributions, feedback, and suggestions are highly appreciated.
