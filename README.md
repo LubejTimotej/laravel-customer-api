@@ -18,19 +18,19 @@ Example for retrieving customer data for API1: `localhost:8000/api/api1/1`
 **API1:**
 - **GET:** `/api1/{id}` - Retrieve customer data by `id`.
 - **POST:** `/api1` - Insert new customer data (`name and last name`, `address`, `postal code`, `tax number`).
-- **UPDATE:** `/api1/{id}` - Update customer data by `id`.
+- **PUT:** `/api1/{id}` - Update customer data by `id`.
 - **DELETE:** `/api1/{id}` - Delete customer data by `id`.
 
 **API2:**
 - **GET:** `/api2/{id}` - Retrieve customer data by `id`.
 - **POST:** `/api2` - Insert new customer data (`name`, `last name`, `address`, `postal code and post office name`, `tax number`).
-- **UPDATE:** `/api2/{id}` - Update customer data by `id`.
+- **PUT:** `/api2/{id}` - Update customer data by `id`.
 - **DELETE:** `/api2/{id}` - Delete customer data by `id`.
 
 **API3:**
 - **GET:** `/api3/{id}` - Retrieve customer data by `id`.
 - **POST:** `/api3` - Insert new customer data (`name_last name`).
-- **UPDATE:** `/api3/{id}` - Update customer data by `id`.
+- **PUT:** `/api3/{id}` - Update customer data by `id`.
 - **DELETE:** `/api3/{id}` - Delete customer data by `id`.
 
 ## Key Features:
